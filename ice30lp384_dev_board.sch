@@ -202,19 +202,6 @@ Wire Wire Line
 Wire Wire Line
 	1750 2050 1700 2050
 $Comp
-L power:GND #PWR02
-U 1 1 5F7D0395
-P 1400 2300
-F 0 "#PWR02" H 1400 2050 50  0001 C CNN
-F 1 "GND" H 1405 2127 50  0000 C CNN
-F 2 "" H 1400 2300 50  0001 C CNN
-F 3 "" H 1400 2300 50  0001 C CNN
-	1    1400 2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1400 2250 1400 2300
-$Comp
 L power:+2V5 #PWR06
 U 1 1 5F7D6F3F
 P 2400 1200
@@ -702,4 +689,5 @@ Wire Wire Line
 Wire Wire Line
 	1950 1450 1950 1500
 Connection ~ 1950 1500
+NoConn ~ 1400 2250
 $EndSCHEMATC

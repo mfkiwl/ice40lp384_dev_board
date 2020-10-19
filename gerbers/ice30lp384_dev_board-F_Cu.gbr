@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(5.1.6)-1*%
-%TF.CreationDate,2020-10-05T22:36:01-05:00*%
+%TF.CreationDate,2020-10-19T07:42:52-05:00*%
 %TF.ProjectId,ice30lp384_dev_board,69636533-306c-4703-9338-345f6465765f,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L1,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.6)-1) date 2020-10-05 22:36:01*
+G04 Created by KiCad (PCBNEW (5.1.6)-1) date 2020-10-19 07:42:52*
 %MOMM*%
 %LPD*%
 G01*
@@ -755,7 +755,7 @@ G01*
 G37*
 %TD.AperFunction*%
 %TO.P,U3,31*%
-%TO.N,Net-(U3-Pad31)*%
+%TO.N,N/C*%
 %TA.AperFunction,SMDPad,CuDef*%
 G36*
 G01*
@@ -783,7 +783,6 @@ G01*
 G37*
 %TD.AperFunction*%
 %TO.P,U3,30*%
-%TO.N,Net-(U3-Pad30)*%
 %TA.AperFunction,SMDPad,CuDef*%
 G36*
 G01*
@@ -811,7 +810,6 @@ G01*
 G37*
 %TD.AperFunction*%
 %TO.P,U3,29*%
-%TO.N,Net-(U3-Pad29)*%
 %TA.AperFunction,SMDPad,CuDef*%
 G36*
 G01*
@@ -867,7 +865,7 @@ G01*
 G37*
 %TD.AperFunction*%
 %TO.P,U3,27*%
-%TO.N,Net-(U3-Pad27)*%
+%TO.N,N/C*%
 %TA.AperFunction,SMDPad,CuDef*%
 G36*
 G01*
@@ -895,7 +893,6 @@ G01*
 G37*
 %TD.AperFunction*%
 %TO.P,U3,26*%
-%TO.N,Net-(U3-Pad26)*%
 %TA.AperFunction,SMDPad,CuDef*%
 G36*
 G01*
@@ -979,7 +976,7 @@ G01*
 G37*
 %TD.AperFunction*%
 %TO.P,U3,23*%
-%TO.N,Net-(U3-Pad23)*%
+%TO.N,N/C*%
 %TA.AperFunction,SMDPad,CuDef*%
 G36*
 G01*
@@ -1007,7 +1004,6 @@ G01*
 G37*
 %TD.AperFunction*%
 %TO.P,U3,22*%
-%TO.N,Net-(U3-Pad22)*%
 %TA.AperFunction,SMDPad,CuDef*%
 G36*
 G01*
@@ -1063,7 +1059,7 @@ G01*
 G37*
 %TD.AperFunction*%
 %TO.P,U3,20*%
-%TO.N,Net-(U3-Pad20)*%
+%TO.N,N/C*%
 %TA.AperFunction,SMDPad,CuDef*%
 G36*
 G01*
@@ -1091,7 +1087,6 @@ G01*
 G37*
 %TD.AperFunction*%
 %TO.P,U3,19*%
-%TO.N,Net-(U3-Pad19)*%
 %TA.AperFunction,SMDPad,CuDef*%
 G36*
 G01*
@@ -1119,7 +1114,6 @@ G01*
 G37*
 %TD.AperFunction*%
 %TO.P,U3,18*%
-%TO.N,Net-(U3-Pad18)*%
 %TA.AperFunction,SMDPad,CuDef*%
 G36*
 G01*
@@ -1707,7 +1701,7 @@ G01*
 G37*
 %TD.AperFunction*%
 %TO.P,U2,1*%
-%TO.N,Net-(U2-Pad1)*%
+%TO.N,N/C*%
 %TA.AperFunction,SMDPad,CuDef*%
 G36*
 G01*
@@ -1740,7 +1734,7 @@ D11*
 %TO.N,+1V2*%
 X117983000Y-47879000D03*
 %TO.P,U1,4*%
-%TO.N,Net-(U1-Pad4)*%
+%TO.N,N/C*%
 X117983000Y-49179000D03*
 %TO.P,U1,2*%
 %TO.N,GND*%
@@ -1808,7 +1802,7 @@ X112649000Y-48895000D03*
 %TD*%
 D14*
 %TO.P,D1,3*%
-%TO.N,GND*%
+%TO.N,N/C*%
 X121920000Y-48895000D03*
 %TO.P,D1,2*%
 %TO.N,+2V5*%
@@ -1821,7 +1815,6 @@ D15*
 %TO.N,GND*%
 X116840000Y-50673000D03*
 X116967000Y-48514000D03*
-X121031000Y-48895000D03*
 X118237000Y-67564000D03*
 X117729000Y-61849000D03*
 D16*
@@ -1873,8 +1866,6 @@ X116083000Y-48529000D02*
 X116952000Y-48529000D01*
 X116952000Y-48529000D02*
 X116967000Y-48514000D01*
-X121920000Y-48895000D02*
-X121031000Y-48895000D01*
 D19*
 X116524000Y-67564000D02*
 X118237000Y-67564000D01*
