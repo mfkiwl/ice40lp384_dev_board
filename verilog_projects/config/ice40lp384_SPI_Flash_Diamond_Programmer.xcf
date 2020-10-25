@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE		ispXCF	SYSTEM	"IspXCF.dtd" >
+<ispXCF version="3.11.1">
+	<Comment></Comment>
+	<Chain>
+		<Comm>JTAG</Comm>
+		<Device>
+			<SelectedProg value="TRUE"/>
+			<Pos>1</Pos>
+			<Vendor>WinBond</Vendor>
+			<Family>iCE40</Family>
+			<Name>iCE40LP384</Name>
+			<Package>All</Package>
+			<Bypass>
+				<InstrLen>8</InstrLen>
+				<InstrVal>11111111</InstrVal>
+				<BScanLen>1</BScanLen>
+				<BScanVal>0</BScanVal>
+			</Bypass>
+			<File>C:/Users/trevo/kicad/projects/ice30lp384_dev_board/ice30lp384_dev_board/verilog_projects/blinky/blinky/blinky_Implmnt/sbt/outputs/bitmap/blinky_bitmap.bin</File>
+			<FileTime>10/25/20 14:47:11</FileTime>
+			<Operation>SPI Flash Erase,Program,Verify</Operation>
+			<Option>
+				<SVFVendor>JTAG STANDARD</SVFVendor>
+				<AccessMode>SPI Flash Programming</AccessMode>
+			</Option>
+			<FPGALoader>
+			<CPLDDevice>
+				<Device>
+					<Pos>1</Pos>
+					<Vendor>Lattice</Vendor>
+					<Family>iCE40</Family>
+					<Name>iCE40LP384</Name>
+					<IDCode>0x11184639</IDCode>
+					<Package>All</Package>
+					<PON>iCE40LP384</PON>
+					<Bypass>
+						<InstrLen>8</InstrLen>
+						<InstrVal>11111111</InstrVal>
+						<BScanLen>1</BScanLen>
+						<BScanVal>0</BScanVal>
+					</Bypass>
+					<Operation>Bypass</Operation>
+					<Option>
+						<SVFVendor>JTAG STANDARD</SVFVendor>
+						<IOState>HighZ</IOState>
+						<AccessMode>JTAG</AccessMode>
+					</Option>
+				</Device>
+			</CPLDDevice>
+			<FlashDevice>
+				<Device>
+					<Pos>1</Pos>
+					<Vendor>WinBond</Vendor>
+					<Family>SPI Serial Flash</Family>
+					<Name>W25X10CL</Name>
+					<IDCode>0x10</IDCode>
+					<Package>8-pin SOIC</Package>
+					<Operation>SPI Flash Erase,Program,Verify</Operation>
+					<File>C:/Users/trevo/kicad/projects/ice30lp384_dev_board/ice30lp384_dev_board/verilog_projects/blinky/blinky/blinky_Implmnt/sbt/outputs/bitmap/blinky_bitmap.bin</File>
+					<AddressBase>0x00000000</AddressBase>
+					<EndAddress>0x00010000</EndAddress>
+					<DeviceSize>1</DeviceSize>
+					<DataSize>7414</DataSize>
+					<NumberOfDevices>1</NumberOfDevices>
+					<ReInitialize value="FALSE"/>
+				</Device>
+			</FlashDevice>
+			<FPGADevice>
+				<Device>
+					<Pos>1</Pos>
+					<Name></Name>
+					<File>C:/Users/trevo/kicad/projects/ice30lp384_dev_board/ice30lp384_dev_board/verilog_projects/blinky/blinky/blinky_Implmnt/sbt/outputs/bitmap/blinky_bitmap.bin</File>
+					<LocalChainList>
+						<LocalDevice index="-99"
+							name="Unknown"
+							file="C:/Users/trevo/kicad/projects/ice30lp384_dev_board/ice30lp384_dev_board/verilog_projects/blinky/blinky/blinky_Implmnt/sbt/outputs/bitmap/blinky_bitmap.bin"/>
+					</LocalChainList>
+					<Option>
+						<SVFVendor>JTAG STANDARD</SVFVendor>
+					</Option>
+				</Device>
+			</FPGADevice>
+			</FPGALoader>
+		</Device>
+	</Chain>
+	<ProjectOptions>
+		<Program>SEQUENTIAL</Program>
+		<Process>ENTIRED CHAIN</Process>
+		<OperationOverride>No Override</OperationOverride>
+		<StartTAP>TLR</StartTAP>
+		<EndTAP>TLR</EndTAP>
+		<DisableCheckBoard value="TRUE"/>
+		<VerifyUsercode value="FALSE"/>
+		<TCKDelay>1</TCKDelay>
+	</ProjectOptions>
+	<CableOptions>
+		<CableName>USB2</CableName>
+		<PortAdd>FTUSB-0</PortAdd>
+		<USBID>Single RS232-HS Location 0001 Serial </USBID>
+	</CableOptions>
+</ispXCF>

@@ -30,3 +30,6 @@ fp-info-cache
 
 # Autosave files
 _autosave-*
+
+# Lattice IceCube2 project directories
+verilog_projects/blinky/blinky

@@ -1,0 +1,22 @@
+# ##############################################################################
+
+# iCEcube PCF
+
+# File Generated:     Sept 27 2020 09:46:33
+
+# Family & Device:    iCE40LP384
+
+# Package:            QFN32
+
+# ##############################################################################
+
+### Main FPGA Clock
+set_io i_Clk 8
+
+### General IO:
+set_io io_1 1
+set_io io_2 2
+set_io io_3 5
+set_io io_4 6
+set_io io_5 7
+set_io io_7 32
