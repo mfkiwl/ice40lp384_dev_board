@@ -1,7 +1,7 @@
 The ice30lp384_dev_board project is a multi-purpose castellated board that can be used in a breadboard or as a module in other projects.
 
 ![main](/images/soldered_board.png)
-![layout high level](/images/layout_high_level.png)
+
 ![pinout](/images/pinout.png)
 
 - [Programming](/docs/Programming.md)
