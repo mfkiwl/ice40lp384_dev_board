@@ -7,7 +7,7 @@ The ice30lp384_dev_board project is a multi-purpose castellated board that can b
 - [Programming](/docs/Programming.md)
 - [Board Creation](/docs/Board_Creation.md)
 
-The pins on the right side of the board are geared towards programming and the pins on the right are for general use.
+The pins on the right side of the board are geared towards programming and the pins on the left are for general use.
 
 PCBs were ordered from OSHPark.
 Stencil was ordered from OSHStencil.
