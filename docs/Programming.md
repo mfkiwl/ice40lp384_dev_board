@@ -28,7 +28,7 @@ python flash.py -h COM3 -w data\main_bitmap.bin
 
 Programming with flashrom command on linux:
 ```
-# Pad a file to 128M to match the size of the flash
+# Pad a file to 128k to match the size of the flash
 tr '\0' '\377' < /dev/zero | dd bs=1 count=131072 of=image.bin
 
 # Combine bitmap and padded file
