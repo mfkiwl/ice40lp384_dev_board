@@ -18,12 +18,24 @@ A minimal programming connection needs the following lines hooked-up:
 ![SPIDriver Programming](/images/spidriver_programming.png)
 
 Useful SPIDriver Commands:
-'''
+```
 # Read JEDEC
 python flash.py -h COM3
 
 # Write BIN file
 python flash.py -h COM3 -w data\main_bitmap.bin
-'''
+```
 
-Note: Configuring the FPGA logic and setting up a develpment environment is outside the scope of this project. . I recommend [NandLand](https://www.nandland.com/) for a great general purpose development board and in-depth tutorials if you are new to FPGAs. If you end up using IceCube2 with this board then make sure you [configure the project](/images/new_project_config.png) appropriately.
+Programming with flashrom command on linux:
+```
+# Pad a file to 128M to match the size of the flash
+tr '\0' '\377' < /dev/zero | dd bs=1 count=131072 of=image.bin
+
+# Combine bitmap and padded file
+dd if=blinky_bitmap.bin conv=notrunc of=image.bin
+
+# Write padded bitmap file to SPI Flash
+sudo flashrom -p ft2232_spi:type=232H -w image.bin
+```
+
+Note: Configuring the FPGA logic and setting up a develpment environment is outside the scope of this project. I recommend [NandLand](https://www.nandland.com/) for a great general purpose development board and in-depth tutorials if you are new to FPGAs. If you end up using IceCube2 with this board then make sure you [configure the project](/images/new_project_config.png) appropriately.
