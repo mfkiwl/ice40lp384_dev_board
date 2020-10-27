@@ -1,0 +1,1 @@
+{"label":"iCE30LP384_dev_board","datasheet":"https://github.com/nezbyte/ice30lp384_dev_board","interface":"FTDI","FPGAResources":{"ffs":384,"luts":384,"pios":72,"plbs":160,"brams":16}}

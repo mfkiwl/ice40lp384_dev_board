@@ -490,80 +490,51 @@ Text GLabel 5150 3750 0    50   Input ~ 0
 MOSI
 Text GLabel 5150 4050 0    50   Input ~ 0
 SCK
-Text GLabel 8950 3000 2    50   Input ~ 0
+Text GLabel 3800 3700 0    50   Input ~ 0
 SCK
-Text GLabel 8950 3100 2    50   Input ~ 0
+Text GLabel 3800 3800 0    50   Input ~ 0
 MISO
-Text GLabel 8950 3200 2    50   Input ~ 0
+Text GLabel 3800 3900 0    50   Input ~ 0
 MOSI
-Text GLabel 8950 3300 2    50   Input ~ 0
+Text GLabel 3800 4000 0    50   Input ~ 0
 CS0
-$Comp
-L power:+3V3 #PWR018
-U 1 1 5F8083B0
-P 8900 2750
-F 0 "#PWR018" H 8900 2600 50  0001 C CNN
-F 1 "+3V3" H 8915 2923 50  0000 C CNN
-F 2 "" H 8900 2750 50  0001 C CNN
-F 3 "" H 8900 2750 50  0001 C CNN
-	1    8900 2750
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR019
 U 1 1 5F808A63
-P 9300 2800
-F 0 "#PWR019" H 9300 2550 50  0001 C CNN
-F 1 "GND" H 9305 2627 50  0000 C CNN
-F 2 "" H 9300 2800 50  0001 C CNN
-F 3 "" H 9300 2800 50  0001 C CNN
-	1    9300 2800
-	1    0    0    -1  
+P 3100 3550
+F 0 "#PWR019" H 3100 3300 50  0001 C CNN
+F 1 "GND" H 3105 3377 50  0000 C CNN
+F 2 "" H 3100 3550 50  0001 C CNN
+F 3 "" H 3100 3550 50  0001 C CNN
+	1    3100 3550
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	8600 2800 9300 2800
-Wire Wire Line
-	8900 2750 8900 2900
-Wire Wire Line
-	8600 3000 8950 3000
-Wire Wire Line
-	8600 3100 8950 3100
-Wire Wire Line
-	8950 3200 8600 3200
-Wire Wire Line
-	8600 3400 8950 3400
-Text GLabel 8950 3400 2    50   Input ~ 0
+Text GLabel 3800 4100 0    50   Input ~ 0
 CRESET
 $Comp
 L Connector_Generic:Conn_01x08 J1
 U 1 1 5F819208
-P 4300 3450
-F 0 "J1" H 4218 3967 50  0000 C CNN
-F 1 "Conn_01x08" H 4218 3876 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 4300 3450 50  0001 C CNN
-F 3 "~" H 4300 3450 50  0001 C CNN
-	1    4300 3450
+P 2200 3800
+F 0 "J1" H 2118 4317 50  0000 C CNN
+F 1 "Conn_01x08" H 2118 4226 50  0000 C CNN
+F 2 "nezbyte:PinHeader_1x08_P2.54mm_Vertical" H 2200 3800 50  0001 C CNN
+F 3 "~" H 2200 3800 50  0001 C CNN
+	1    2200 3800
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x08 J2
 U 1 1 5F820866
-P 8400 3100
-F 0 "J2" H 8318 3617 50  0000 C CNN
-F 1 "Conn_01x08" H 8318 3526 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 8400 3100 50  0001 C CNN
-F 3 "~" H 8400 3100 50  0001 C CNN
-	1    8400 3100
-	-1   0    0    -1  
+P 4150 3800
+F 0 "J2" H 4068 4317 50  0000 C CNN
+F 1 "Conn_01x08" H 4068 4226 50  0000 C CNN
+F 2 "nezbyte:PinHeader_1x08_P2.54mm_Vertical" H 4150 3800 50  0001 C CNN
+F 3 "~" H 4150 3800 50  0001 C CNN
+	1    4150 3800
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8600 2900 8900 2900
-Wire Wire Line
-	8600 3300 8950 3300
-Text GLabel 8950 3500 2    50   Input ~ 0
+Text GLabel 3800 4200 0    50   Input ~ 0
 CDONE
-Wire Wire Line
-	8950 3500 8600 3500
 $Comp
 L power:GND #PWR020
 U 1 1 5F85721A
@@ -587,63 +558,16 @@ F 3 "" H 1950 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0101
-U 1 1 5F8C5F25
-P 4650 2750
-F 0 "#PWR0101" H 4650 2500 50  0001 C CNN
-F 1 "GND" H 4655 2577 50  0000 C CNN
-F 2 "" H 4650 2750 50  0001 C CNN
-F 3 "" H 4650 2750 50  0001 C CNN
-	1    4650 2750
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3V3 #PWR0102
 U 1 1 5F8CAD65
-P 4750 2850
-F 0 "#PWR0102" H 4750 2700 50  0001 C CNN
-F 1 "+3V3" H 4765 3023 50  0000 C CNN
-F 2 "" H 4750 2850 50  0001 C CNN
-F 3 "" H 4750 2850 50  0001 C CNN
-	1    4750 2850
+P 3100 3300
+F 0 "#PWR0102" H 3100 3150 50  0001 C CNN
+F 1 "+3V3" H 3115 3473 50  0000 C CNN
+F 2 "" H 3100 3300 50  0001 C CNN
+F 3 "" H 3100 3300 50  0001 C CNN
+	1    3100 3300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4650 2750 4500 2750
-Wire Wire Line
-	4500 2750 4500 3150
-Wire Wire Line
-	4750 2850 4750 3100
-Wire Wire Line
-	4750 3100 4550 3100
-Wire Wire Line
-	4550 3100 4550 3250
-Wire Wire Line
-	4550 3250 4500 3250
-Wire Wire Line
-	4500 3350 4600 3350
-Wire Wire Line
-	4600 3350 4600 3150
-Wire Wire Line
-	4600 3150 5300 3150
-Wire Wire Line
-	5300 3250 4650 3250
-Wire Wire Line
-	4650 3250 4650 3450
-Wire Wire Line
-	4650 3450 4500 3450
-Wire Wire Line
-	4500 3550 4700 3550
-Wire Wire Line
-	4700 3550 4700 3350
-Wire Wire Line
-	4700 3350 5300 3350
-Wire Wire Line
-	5300 3450 4750 3450
-Wire Wire Line
-	4750 3450 4750 3650
-Wire Wire Line
-	4500 3650 4750 3650
 Wire Wire Line
 	5300 3650 5150 3650
 Wire Wire Line
@@ -654,18 +578,6 @@ Wire Wire Line
 	5150 3950 5300 3950
 Wire Wire Line
 	5300 4050 5150 4050
-Wire Wire Line
-	4800 3750 4800 3550
-Wire Wire Line
-	4800 3550 5300 3550
-Wire Wire Line
-	4500 3750 4800 3750
-Wire Wire Line
-	4500 3850 4800 3850
-Wire Wire Line
-	4800 3850 4800 5150
-Wire Wire Line
-	4800 5150 5300 5150
 $Comp
 L Device:C C3
 U 1 1 5F9298BA
@@ -690,4 +602,86 @@ Wire Wire Line
 	1950 1450 1950 1500
 Connection ~ 1950 1500
 NoConn ~ 1400 2250
+Text GLabel 5150 5150 0    50   Input ~ 0
+IO_32
+Text GLabel 5150 3550 0    50   Input ~ 0
+IO_5
+Text GLabel 5150 3450 0    50   Input ~ 0
+IO_4
+Text GLabel 5150 3350 0    50   Input ~ 0
+IO_3
+Text GLabel 5150 3250 0    50   Input ~ 0
+IO_2
+Text GLabel 5150 3150 0    50   Input ~ 0
+IO_1
+Wire Wire Line
+	3950 3500 3100 3500
+Wire Wire Line
+	3100 3500 3100 3550
+Wire Wire Line
+	3950 3600 3500 3600
+Wire Wire Line
+	3500 3600 3500 3350
+Wire Wire Line
+	3500 3350 3100 3350
+Wire Wire Line
+	2400 3500 3100 3500
+Connection ~ 3100 3500
+Wire Wire Line
+	3100 3350 2700 3350
+Wire Wire Line
+	2700 3350 2700 3600
+Wire Wire Line
+	2400 3600 2700 3600
+Connection ~ 3100 3350
+Wire Wire Line
+	3100 3300 3100 3350
+Wire Wire Line
+	3800 3700 3950 3700
+Wire Wire Line
+	3950 3800 3800 3800
+Wire Wire Line
+	3950 3900 3800 3900
+Wire Wire Line
+	3800 4000 3950 4000
+Wire Wire Line
+	3950 4100 3800 4100
+Wire Wire Line
+	3800 4200 3950 4200
+Wire Wire Line
+	2550 4200 2400 4200
+Wire Wire Line
+	2400 4100 2550 4100
+Wire Wire Line
+	2550 4000 2400 4000
+Wire Wire Line
+	2400 3900 2550 3900
+Wire Wire Line
+	2550 3800 2400 3800
+Wire Wire Line
+	2550 3700 2400 3700
+Wire Wire Line
+	5150 3550 5300 3550
+Wire Wire Line
+	5300 3450 5150 3450
+Wire Wire Line
+	5150 3350 5300 3350
+Wire Wire Line
+	5300 3250 5150 3250
+Wire Wire Line
+	5150 3150 5300 3150
+Wire Wire Line
+	5150 5150 5300 5150
+Text GLabel 2550 3700 2    50   Input ~ 0
+IO_1
+Text GLabel 2550 3800 2    50   Input ~ 0
+IO_2
+Text GLabel 2550 3900 2    50   Input ~ 0
+IO_3
+Text GLabel 2550 4000 2    50   Input ~ 0
+IO_4
+Text GLabel 2550 4200 2    50   Input ~ 0
+IO_32
+Text GLabel 2550 4100 2    50   Input ~ 0
+IO_5
 $EndSCHEMATC
